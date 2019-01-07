@@ -1,2 +1,5 @@
-# cis206
-Projects and work for CIS206 - 'Programming in Java'
+# CIS 206 - Programming in Java
+
+## Projects
+
+### 1
