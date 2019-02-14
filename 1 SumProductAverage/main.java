@@ -23,9 +23,10 @@ public class Main
      int difference = first - second;
      int product = first * second;
      int average = sum / 2;
-     int absvalue = Math.abs(first) - Math.abs(second);
      int max = Math.max(first, second);
      int min = Math.min(first, second);
+     int absvalue = max - min;
+     Math.abs(absvalue);
      System.out.printf("Sum: %6d\n", + sum);
      System.out.printf("Difference: %6d\n", + difference);
      System.out.printf("Product: %6d\n", + product);
