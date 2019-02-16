@@ -1,5 +1,6 @@
-# CIS 206 - Programming in Java
+# CIS 206 - Programming in Java - Java for Everyone by Cay Horstmann
 
 ## Projects
 
-### 1
+### 2 SumProductAver
+>Working with the basics, arithmetic with Java.
