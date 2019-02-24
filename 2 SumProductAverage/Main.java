@@ -27,12 +27,12 @@ public class Main
      int min = Math.min(first, second);
      int absvalue = max - min;
      Math.abs(absvalue);
-     System.out.printf("Sum: %6d\n", + sum);
-     System.out.printf("Difference: %6d\n", + difference);
-     System.out.printf("Product: %6d\n", + product);
-     System.out.printf("Average: %6d\n", + average);
-     System.out.printf("Absolute Value: %6d\n", + absvalue);
-     System.out.printf("Max: %6d\n", + max);
-     System.out.printf("Min: %6d\n", + min);
+     System.out.printf("%-15s %15s %n","Sum: ", + sum);
+     System.out.printf("%-15s %15s %n","Difference: ", + difference);
+     System.out.printf("%-15s %15s %n","Product: ", + product);
+     System.out.printf("%-15s %15s %n","Average: ", + average);
+     System.out.printf("%-15s %15s %n","Absolute Value: ", + absvalue);
+     System.out.printf("%-15s %15s %n","Max: ", + max);
+     System.out.printf("%-15s %15s %n","Min: ", + min);
   }
 }

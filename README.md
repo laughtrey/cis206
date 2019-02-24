@@ -2,5 +2,5 @@
 
 ## Projects
 
-### 2 SumProductAver
+### 2 SumProductAverage
 >Working with the basics, arithmetic with Java.
