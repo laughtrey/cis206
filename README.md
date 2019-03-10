@@ -10,3 +10,6 @@
 
 ### 4 Loops - March 4
 >Looping. Moving through things and do,while,else if,for.
+
+### 5 Methods - March 10
+>Methods are functions from C++! Going to make my first one that scrambles up words.
