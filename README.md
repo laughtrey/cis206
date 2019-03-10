@@ -7,3 +7,6 @@
 
 ### 3 Decisions - Feb 25
 >If statement. If something is true, if something is !true, etc.
+
+### 4 Loops - March 4
+>Looping. Moving through things and do,while,else if,for.
