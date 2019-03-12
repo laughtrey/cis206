@@ -9,7 +9,7 @@
 I dn’ot gvie a dman for a man taht can olny sepll a wrod one way. (Mark Twain)
 ```
 
->Write a method String scramble( String word) that constructs a scrambled version of a given word, randomly flipping two characters other than the first and last one. Then write a program that reads words and prints the scrambled words.  The following pseudocode may help you to develop the method,
+>Write a method String scramble(String word) that constructs a scrambled version of a given word, randomly flipping two characters other than the first and last one. Then write a program that reads words and prints the scrambled words.  The following pseudocode may help you to develop the method,
 
 
  *Check if word length of string is greater than 3
