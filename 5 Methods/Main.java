@@ -43,7 +43,5 @@ public static String scramble(String word)
 		scrambled = Beginning + random2 + random1 + End;        // concatenates the word with scrambled letters inside
 	}
 	return scrambled;
-
-
 }
 }
