@@ -17,17 +17,14 @@ public static void main(String[] args)
 	while (menu) {
 		System.out.println("Make a selection: \n 1] Add a name to the directory.\n 2] Search the directory.\n 3] List the directory.\n 4] Exit.");
 		int answer = input.nextInt();
-		if(answer == 1){
+		if (answer == 1) {
 			addmorenames(directory);
-		}
-		else if(answer == 2){
+		}else if (answer == 2) {
 			searchfornames(directory);
-		}
-		else if(answer == 3){
+		}else if (answer == 3) {
 			printthe(directory);
-		}
-		else if(answer == 4){
-		menu = false;
+		}else if (answer == 4) {
+			menu = false;
 		}
 	}
 	input.close();
@@ -35,6 +32,7 @@ public static void main(String[] args)
 public static Vector<String> addmorenames(Vector<String> v)
 {
 	String name = " ";
+
 	System.out.println("Hello, please enter the next name!");
 	name = input.next();
 	v.add(name);
@@ -52,8 +50,7 @@ public static void searchfornames(Vector<String> v)
 }
 public static void printthe(Vector<String> v)
 {
-	for(String names : v)
-	System.out.println(names);
-
+	for (String names : v)
+		System.out.println(names);
 }
 }
