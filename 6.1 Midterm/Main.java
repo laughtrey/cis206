@@ -72,6 +72,7 @@ public static Vector<String> addmorenames(Vector<String> v)
 	System.out.println("Hello, please enter the next name!");
 	name = input.next();
 	v.add(name);
+	input.close();
 	return v;
 }
 public static void searchfornames(Vector<String> v)
@@ -81,8 +82,9 @@ public static void searchfornames(Vector<String> v)
   String query = input.next();
   for (int i = 0; i < v.size(); i++) {
     if (v.get(i).equals(query)) {
-      System.out.println("They are number: " + v.indexOf(query) + 1 + " in the list.");
+      System.out.println("They are number: " + (i+1) + " in the list.");
     }
+		input.close();
   }
 }
 }
