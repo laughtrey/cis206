@@ -9,13 +9,13 @@ import java.util.Scanner;
 import java.util.Vector;
 public class Main
 {
+private static Scanner input = new Scanner(System.in);
 public static void main(String[] args)
 {
 	Vector<String> directory = new Vector<String>();
 	String answer = " ";
 	boolean addmorenames = true;
 	boolean searchfornames = false;
-  Scanner input = new Scanner(System.in);
 	while (addmorenames) {
 		addmorenames(directory);
 		System.out.println("Would you like to enter another name? (y/n)");
@@ -67,24 +67,20 @@ public static void main(String[] args)
 }
 public static Vector<String> addmorenames(Vector<String> v)
 {
-  Scanner input = new Scanner(System.in);
   String name = " ";
 	System.out.println("Hello, please enter the next name!");
 	name = input.next();
 	v.add(name);
-	input.close();
 	return v;
 }
 public static void searchfornames(Vector<String> v)
 {
-  Scanner input = new Scanner(System.in);
   System.out.println("Which name would you like to search for?");
   String query = input.next();
   for (int i = 0; i < v.size(); i++) {
     if (v.get(i).equals(query)) {
-      System.out.println("They are number: " + (i+1) + " in the list.");
+      System.out.println("They are number: " + (i + 1) + " in the list.");
     }
-		input.close();
   }
 }
 }
