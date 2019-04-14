@@ -23,7 +23,7 @@ public static void main(String[] args)
 			searchfornames(directory);
 		}else if (answer == 3) {
 			printthe(directory);
-		}else if (answer == 4) {
+		}else{
 			menu = false;
 		}
 	}
