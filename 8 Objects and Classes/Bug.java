@@ -12,6 +12,10 @@ public class Bug
 {
   private int position = 0;
   private int direction = 1;
+  /**
+   * Bug object constructor
+   * @param initialPosition The initial user-inputted position
+   */
   public Bug(int initialPosition)
   {
     this.position = initialPosition;
