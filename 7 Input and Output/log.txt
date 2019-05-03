@@ -1,0 +1,6 @@
+Laughrey,Ray;Dinner;22.55;4-16-2019;
+Trainor,Kim;Dinner;22.55;4-16-2019;
+Santillan,Joshua;Conference;13.15;4-11-2019;
+Flintstone,Fred;Conference;34.56;4-11-2019;
+Hacker,Harry;Conference;22.34;4-11-2019;
+Baker,Bob;Lodging;15.50;4-3-2019;
