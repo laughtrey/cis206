@@ -34,5 +34,6 @@ public class Main
      System.out.printf("%-16s %s %n","Absolute Value: ", + absvalue);
      System.out.printf("%-16s %s %n","Max: ", + max);
      System.out.printf("%-16s %s %n","Min: ", + min);
+     in.close();
   }
 }

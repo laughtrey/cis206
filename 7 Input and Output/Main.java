@@ -20,21 +20,18 @@ public class Main
 {
 public static void main(String[] args) throws FileNotFoundException
 {
+	File inputFile = new File("log.txt");
+	Scanner in = new Scanner(inputFile);
+
 	ArrayList<Double> Dinner = new ArrayList<Double>();
 	ArrayList<Double> Conference = new ArrayList<Double>();
 	ArrayList<Double> Lodging = new ArrayList<Double>();
 
-
-	File inputFile = new File("log.txt");
-	//THROW EXCEPTION HERE IF NO FILE
-
-	Scanner in = new Scanner(inputFile);
-
+	int linecount = 0;
 	while (in.hasNextLine()) {
+		linecount++;
 		String line = in.nextLine();
 		String[] data = line.split(";");
-		System.out.println(line);
-		//parse name, occurance/price into data struct, date
 		if (data[1].equals("Dinner")) {
 			double price = Double.parseDouble(data[2]);
 			Dinner.add(price);
@@ -44,8 +41,12 @@ public static void main(String[] args) throws FileNotFoundException
 		}else if (data[1].equals("Lodging")) {
 			double price = Double.parseDouble(data[2]);
 			Lodging.add(price);
-		}       //else THROW EXCEPTION HERE
+		}else {
+			in.close();
+			throw new IllegalArgumentException("Input in log.txt on line: " + linecount); // This will throw an error message if log.txt is not formatted correctly.
+		}
 	}
+	in.close();
 	System.out.println("=======Totals=======");
 	double DinnerSum = 0;
 	for (int i = 0; i < Dinner.size(); i++ ) {
@@ -64,11 +65,8 @@ public static void main(String[] args) throws FileNotFoundException
 	System.out.println("Lodging sum: " + LodgingSum);
 
 	// PrintWriter out = new PrintWriter("output.txt");
-	// out.println(line);
+	// lines 49-64 here, to out.println.
 	// out.close();
-
-	in.close();
-
 
 }
 }
