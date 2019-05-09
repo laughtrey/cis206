@@ -15,7 +15,18 @@ public class Main
 {
 public static void main(String[] args) throws FileNotFoundException
 {
-	File inputFile = new File("log.txt");
+	Scanner input = new Scanner(System.in);
+	File inputFile;
+
+	System.out.println("Would you like a correct log file, or incorrect?\n" +
+			   "1] Correct file\n" +
+			   "2] Incorrect file");
+	String answer = input.next();
+	if (answer.equals("1")) {
+		inputFile = new File("log.txt");
+	}else  {
+		inputFile = new File("incorrectlog.txt");
+	}
 	Scanner in = new Scanner(inputFile);
 	final int MAX_LENGTH = 4;
 
@@ -27,7 +38,7 @@ public static void main(String[] args) throws FileNotFoundException
 		String line = in.nextLine();
 		String[] salesData = line.split(";");
 		if (salesData.length > MAX_LENGTH) {
-			throw new IllegalArgumentException("Input in log.txt on line: " + linecount); // This will throw an error message if log.txt is not formatted correctly.
+			throw new IllegalArgumentException("Error in input file on line: " + linecount); // This will throw an error message if log.txt is not formatted correctly.
 		}
 		//Expected:
 		// 0 = Customer name
