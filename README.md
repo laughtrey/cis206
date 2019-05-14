@@ -26,6 +26,11 @@
 >My first multi-file compilation in Java and my first individual class and object.
 >Java is nice without the headers, but I wonder what the advantages of C++ are over Java at this point.
 
-### -- Input and Output - April 22
+### 7 Input and Output - April 22
 >Input and output, working with files. The Scanner object is really smart and I like
 >using it so far. The split() function is really convenient too, I don't know if C++ has it.
+
+### 9 Inheritance and Interfaces - April 29
+>I'm familiar with this from C++, but I sort of like the way Java does it a little bit better.
+>Maybe it's because I'm finding Java a bit more consistent overall, but it's a lot easier to keep track
+>of things for some reason.
