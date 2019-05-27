@@ -30,7 +30,18 @@
 >Input and output, working with files. The Scanner object is really smart and I like
 >using it so far. The split() function is really convenient too, I don't know if C++ has it.
 
-### 9 Inheritance and Interfaces - May 6 
+### 9 Inheritance and Interfaces - May 6
 >I'm familiar with this from C++, but I sort of like the way Java does it a little bit better.
 >Maybe it's because I'm finding Java a bit more consistent overall, but it's a lot easier to keep track
 >of things for some reason.
+
+### 14 Sorting and Searching - May 13
+>The same basic problem from C++ I've already experienced. Programming is programming, no matter the language.
+>In this project I sort the data by either Alphabetical or Numerical order, and then run a binary search.
+>That is; split the data in half and search either the half that the data is less than the middle value, or greater.
+>Thanks Sir Isaac.
+
+### 15 Collections - May 20
+>Data structures, again the same idea as C++. The iterator class is a little more annoying than it is in C++.
+>I don't really see the value of the Set class not having a .get() function but I'm sure there's a good reason.
+>I still need more practice with stuff like lists and queues. 
