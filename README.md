@@ -44,4 +44,11 @@
 ### 15 Collections - May 20
 >Data structures, again the same idea as C++. The iterator class is a little more annoying than it is in C++.
 >I don't really see the value of the Set class not having a .get() function but I'm sure there's a good reason.
->I still need more practice with stuff like lists and queues. 
+>I still need more practice with stuff like lists and queues.
+
+### Final Project - May 27
+>A simple line editor. Didn't even need it's own class. Pretty simple.
+
+### Final In Class - June 6
+>The Final project done in class. Just sorting and inputting data from mountains around the world, again pretty
+>simple stuff.
