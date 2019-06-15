@@ -1,5 +1,7 @@
 # CIS 206 - Programming in Java - Java for Everyone by Cay Horstmann
 
+## Final Grade: A
+
 ## Projects
 
 ### 2 SumProductAverage - Feb 18
