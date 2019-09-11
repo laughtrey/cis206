@@ -1,6 +1,12 @@
-# CIS 206 - Programming in Java - Java for Everyone by Cay Horstmann
+# CIS 206 - Programming in Java
 
-## Final Grade: A
+### Spring '19
+### Textbook: Java for Everyone by Cay Horstmann
+#### Final grade: A
+
+[Continued from CIS 202](https://laughtrey.github.io/cis202/)
+
+[Continued in CIS 83](https://laughtrey.github.io/cis83/)
 
 ## Projects
 
