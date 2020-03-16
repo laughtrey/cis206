@@ -1,6 +1,6 @@
 
-#Project - Word Scramble
-###Complete project 5.3 in the text
+# Project - Word Scramble
+### Complete project 5.3 in the text
 
 >It is a well-known phenomenon that most people are easily able to read a text whose words have two characters flipped, provided the first and last letter of each word are not changed. For example:
 
